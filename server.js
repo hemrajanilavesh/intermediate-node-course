@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const User = require('./models/User');
-mongoose.connect('mongodb://localhost/userData');
+mongoose.connect('mongodb://localhost/userData', {useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false});
 const bodyParser = require('body-parser');
 const port = 8090;
 const app = express();
