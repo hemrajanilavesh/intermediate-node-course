@@ -1,3 +1,1 @@
-# Intermediate Node.js
-
-Check out the issues of this repo for the course materials.
+[![npm version](https://badge.fury.io/js/express.svg)](https://badge.fury.io/js/express)
